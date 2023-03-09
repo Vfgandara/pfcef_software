@@ -1,0 +1,10 @@
+MPU6050 status: 0
+Calibrando o giroscópio...
+Calibração finalizada!
+
+data:80 0
+data:200 -270
+data:200 -180
+data:100 -90
+data:120 0
+data:100 -90

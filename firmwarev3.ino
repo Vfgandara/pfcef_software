@@ -1,4 +1,9 @@
-# Partes desse código foram adaptados de https://www.makerguides.com/hc-sr04-arduino-tutorial/
+# Partes desse código relativos à tomada de dados
+# pelo sensor de distância foram adaptados de https://www.makerguides.com/hc-sr04-arduino-tutorial/
+
+# Partes desse código relativos à tomada de dados
+# pelo MPU6050 foram adaptados de https://github.com/rfetick/MPU6050_light/blob/master/examples/GetAngle/GetAngle.ino
+# que é um arquivo de exemplo de uso da própria biblioteca MPU6050_light
 
 #include "Wire.h"
 #include <MPU6050_light.h>

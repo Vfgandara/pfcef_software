@@ -1,4 +1,4 @@
-# Partes desse código foram adaptados de https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
+# Partes desse código foram adaptados de https://www.makerguides.com/hc-sr04-arduino-tutorial/
 
 #include "Wire.h"
 #include <MPU6050_light.h>

@@ -1,3 +1,5 @@
+# Partes desse código foram adaptados de https://howtomechatronics.com/tutorials/arduino/ultrasonic-sensor-hc-sr04/
+
 #include "Wire.h"
 #include <MPU6050_light.h>
 #define dist_sens_trig_pin 3 // Pino D3

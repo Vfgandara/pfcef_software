@@ -26,8 +26,8 @@ class Solver():
         self.angle_wheel = AngleWheel() # armazena e processa informações de ângulo
         self.raw_data_points = [] # armazena os dados crus de entrada
         self.coordinates = [(0,0)] # armazena a lista de coordenadas do cômodo
-        self.a = 0.97517085 # valor de 'a' na calibração ax + b
-        self.b = 24.26231621 # valor de 'b' na calibração ax + b
+        self.a = 0.98 # valor de 'a' na calibração ax + b
+        self.b = 24.26 # valor de 'b' na calibração ax + b
         self.dist_calibration = lambda x: self.a*x + self.b # função de calibração de distância
 
     def _raw_input_data_to_proc_data(self, data: Tuple[float, float]) -> Tuple[float, float]:

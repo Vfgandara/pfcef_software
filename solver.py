@@ -87,7 +87,7 @@ class Solver():
             x = (x_points[i] - x_points[i-1])/2 + x_points[i-1]
             y = (y_points[i] - y_points[i-1])/2 + y_points[i-1]
             dist_val = self.raw_data_points[i-1][0]
-            ax.text(x,y,f"{dist_val:.2f}")
+            ax.text(x,y,f"{dist_val:.2f}", fontsize="xx-large")
 
         # Se um path é passado, salva a imagem
         if saving_path:
